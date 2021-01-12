@@ -15,7 +15,7 @@ $result = mysqli_query($con,"SELECT * FROM myblog2");
 
 $row = mysqli_fetch_array($result,MYSQLI_ASSOC);
 // $row = $result->fetch_assoc();
-
+$con->close();
 ?>
 
 <!DOCTYPE html>
