@@ -1,8 +1,15 @@
 <?php
-$server = "localhost";
-$username = "root";
-$password = "";
-$db ="mydb";
+
+$username = "uvq7xcypwmzx5xvf";
+$password=yhdZhbEUV92SHqnY1cgr";
+$db ="bmqo9dmih1eirf7e9sbo";
+$server = "bmqo9dmih1eirf7e9sbo-mysql.services.clever-cloud.com:3306";
+
+
+// $server = "localhost";
+// $username = "root";
+// $password = "";
+// $db ="mydb";
 $con = mysqli_connect($server, $username, $password, $db);
 $result = mysqli_query($con,"SELECT * FROM myblog2");
 
