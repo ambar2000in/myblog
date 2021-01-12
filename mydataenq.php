@@ -7,13 +7,13 @@
            
    // PORT 3306 
            
-   $username = "uvq7xcypwmzx5xvf";
-   $password=yhdZhbEUV92SHqnY1cgr";
-   $db ="bmqo9dmih1eirf7e9sbo";
-   $server = "bmqo9dmih1eirf7e9sbo-mysql.services.clever-cloud.com:3306";
+//    $username = "uvq7xcypwmzx5xvf";
+//    $password=yhdZhbEUV92SHqnY1cgr";
+//    $db ="bmqo9dmih1eirf7e9sbo";
+//    $server = "bmqo9dmih1eirf7e9sbo-mysql.services.clever-cloud.com:3306";
 
 
-$con = mysqli_connect($server, $username, $password, $db);
+// $con = mysqli_connect($server, $username, $password, $db);
 
 if(!$con)
 {
